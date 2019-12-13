@@ -1,0 +1,67 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+#section1 {
+    text-align: center;
+    height: 250px;
+}
+
+#contenu1 {
+    padding-top: 30px;
+}
+
+#liensignup {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#liensignup:hover {
+    color: crimson;
+}
+
+footer {
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#colonne1 {
+    margin-left: 150px;
+    position: relative;
+    float: left;
+    color: white;
+    width: 30%;
+    height: 150px;
+}
+
+#colonne2 {
+    margin-right: 150px;
+    position: relative;
+    float: right;
+    color: white;
+    width: 30%;
+    height: 150px;
+}
+
+.contenufooter {
+    line-height: 30px;
+}
+
+.textfooter {
+    text-decoration: none;
+    color: white;
+    margin-top: 10%;
+    padding: 10px;
+}
+
+.textfooter:hover {
+    color: crimson;
+}
