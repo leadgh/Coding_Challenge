@@ -28,12 +28,39 @@
     </header>
     <section id="">
         <h1>Prêt pour les exercices??</h1>
-        <h3>Exercice 2.1</h3>
+        <h3>Exercice 1</h3>
         <p>Créez un bouton et deux champs input de type number. Afficher la division de ces nombre sur votre navigateur.</p>
         <input type="number" id="ex1_input1" placeholder="Entrer une valeur">
         / <input type="number" id="ex1_input2" placeholder="Entrer une valeur"><span> = <b id="result-exo-1"></b></span>
         <br>
         <button onclick="Division()" id="exercices"> Calculer </button>  
+      </p>
+      <h3>Exercice 2</h3>
+      <p>2.1- Affichez une variable (char) égale à "Entrez un entier..."<br>
+         2.2- Ajouter des boutons de 0 à 9. Chaque bouton incrémente votre résultat (et remplace "Entrez un entier...").<br>
+         2.3- Intégrez deux boutons "/" et "+" permettant d'effectuer des opérations arithmétiques sur votre résultat.<br>
+         2.4- Intégrer un bouton permettant d'ajouter 5</br>
+         2.5- Ajoutez un bouton permettant de diviser par 4.</br>
+         2.6- Ajoutez un bouton permettant de diviser par 10, multiplier par 2 et soustraire de 20 votre résultat.</br>
+         2.7Ajoutez un bouton Reset qui vous ré-affiche "Entrez un entier...".
+      <br></p>
+      <p>
+        Résultat: <b><span id="result-exo-2"></span></b><br>
+        <button onclick="zero()" id="ptitbtn">0</button>
+        <button onclick="un()" id="ptitbtn">1</button>
+        <button onclick="deux()" id="ptitbtn">2</button>
+        <button onclick="trois()" id="ptitbtn">3</button>
+        <button onclick="quatre()" id="ptitbtn">4</button>
+        <button onclick="cinq()" id="ptitbtn">5</button>
+        <button onclick="six()" id="ptitbtn">6</button>
+        <button onclick="sept()" id="ptitbtn">7</button>
+        <button onclick="huit()" id="ptitbtn">8</button>
+        <button onclick="neuf()" id="ptitbtn">9</button> </br>
+        <button onclick="divise()" id="ptitbtn">/</button>
+        <button onclick="addition()" id="ptitbtn">+</button>
+        <button onclick="divisequatre()" id="ptitbtn">/4</button>
+        <button onclick="operation()" id="ptitbtn">/10 & *2 & -20</button>
+        <button onclick="resetExo2()" id="ptitbtn">Reinitialiser</button>
       </p>
     </section>
 
@@ -56,5 +83,5 @@
                 </section>
     </footer>
 </body>
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </html>
