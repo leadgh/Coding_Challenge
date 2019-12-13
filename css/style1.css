@@ -1,6 +1,7 @@
 body, html {
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 #section1 {
@@ -8,11 +9,13 @@ body, html {
     height: 250px;
 }
 
-#section2{
+#section2 {
     text-align: center;
     width: 100%;
     min-height: 250px;
+    margin-bottom: 100px;
 }
+
 #contenu1 {
     padding-top: 30px;
 }
