@@ -8,11 +8,33 @@
     <meta name="keywords" content="Contact, CodingChallenge, Javascript">
     <meta name="description" content="Retrouvez les contacts de notre équipe du CodingChallenge">
     <link rel="stylesheet" href="../css/style1.css">
-    <title>Contact | CodingChallenge</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Examen | CodingChallenge</title>
 </head>
 <body>
+    <header>
+        <nav id="nav">
+            <div class="img">
+                <a href="../index.html"><img src="../img/logo_site_officiel blanc.png" alt="Logo Site" id="logo">
+            </div>
+            <div class="liens">
+                <a href="offer.html">Nos Offres</a>
+                <a href="signup.html">S'inscrire</a>
+                <a href="login.html">Se connecter</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
     <section id="">
-
+        <h1>Prêt pour les exercices??</h1>
+        <h3>Exercice 2.1</h3>
+        <p>Créez un bouton et deux champs input de type number. Afficher la division de ces nombre sur votre navigateur.</p>
+        <input type="number" id="ex1_input1" placeholder="Entrer une valeur">
+        / <input type="number" id="ex1_input2" placeholder="Entrer une valeur"><span> = <b id="result-exo-1"></b></span>
+        <br>
+        <button onclick="Division()" id="exercices"> Calculer </button>  
+      </p>
     </section>
 
     <footer>
@@ -34,4 +56,5 @@
                 </section>
     </footer>
 </body>
+    <script src="js/script.js"></script>
 </html>

@@ -72,7 +72,6 @@ button:hover {
     opacity:1;
 }
 
-/* Extra styles for the cancel button */
 .annulebtn {
     padding: 14px 20px;
     background-color: #11178C;
@@ -82,18 +81,15 @@ button:hover {
     width: 10%;
 }
 
-/* Float cancel and signup buttons and add an equal width */
 .annulebtn, .inscrirebtn {
   float: left;
   width: 50%;
 }
 
-/* Add padding to container elements */
 .container {
   padding: 16px;
 }
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
@@ -108,10 +104,6 @@ button:hover {
     opacity: 0.8;
 }
 
-  
-  
-
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .annulebtn, .inscrirebtn {
      width: 100%;
@@ -122,8 +114,13 @@ button:hover {
  }
 }
 
-
-
+#exercices{
+    background-color: #118EBF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+}
 
 
   
