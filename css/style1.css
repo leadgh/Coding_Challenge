@@ -1,0 +1,24 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+#section1 {
+    text-align: center;
+    height: 250px;
+}
+
+#contenu1 {
+    padding-top: 30px;
+}
+
+#liensignup {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#liensignup:hover {
+    color: crimson;
+}
