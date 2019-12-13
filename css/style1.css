@@ -1,11 +1,19 @@
 body, html {
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 #section1 {
     text-align: center;
     height: 250px;
+}
+
+
+#section2 {
+    text-align: center;
+    width: 100%;
+    min-height: 250px;
 }
 
 #contenu1 {
@@ -36,8 +44,9 @@ img:hover {
 
 footer {
     background: black;
-    position: absolute;
-    bottom: 0;
+    display: table;
+    /*position: absolute;
+    bottom: 0;*/
     width: 100%;
     height: auto;
     padding-top: 50px;
