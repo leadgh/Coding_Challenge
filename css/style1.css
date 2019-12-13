@@ -16,11 +16,10 @@ body, html {
     text-decoration: none;
     color: black;
     font-size: large;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #liensignup:hover {
-    color: crimson;
+    color: #118EBF;
 }
 
 footer {
@@ -63,5 +62,5 @@ footer {
 }
 
 .textfooter:hover {
-    color: crimson;
+    color: #118EBF;
 }

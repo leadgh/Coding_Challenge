@@ -34,7 +34,7 @@ nav a{
     float: right;
 }
 nav a:hover{
-    color:  #118EBF;;
+    color:  #118EBF;
 }
 
 input[type=text], input[type=password] {
